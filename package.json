@@ -1,0 +1,69 @@
+{
+  "name": "fudaut-bmecat-oci-mcp",
+  "version": "1.0.0",
+  "mcpName": "io.github.iisakovbusiness-wq/fudaut-bmecat-oci-mcp",
+  "description": "MIT-licensed local stdio MCP server and CLI for technical wholesale & B2B procurement: BMEcat 1.2/2005 validation (GS1 GTIN/EAN-8/13, BigInt tier prices, ETIM/eCl@ss, XXE block), BMEcat to JTL-Wawi/weclapp/Shopware 6/Sage 100/SelectLine ERP JSON & CSV conversion, CSV/JSON to BMEcat 2005 T_NEW_CATALOG generation, and SAP OCI 4.0/5.0 PunchOut cart validation.",
+  "license": "MIT",
+  "author": "Ilia Isakov, Fudaut (https://www.fudaut.com)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "fudaut-bmecat-oci-mcp": "dist/cli.js",
+    "bmecat-oci-mcp": "dist/cli.js"
+  },
+  "files": [
+    "dist/",
+    "src/",
+    "fixtures/",
+    "server.json",
+    "glama.json",
+    "Dockerfile",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iisakovbusiness-wq/fudaut-bmecat-oci-mcp.git"
+  },
+  "homepage": "https://www.fudaut.com/de/leistungen",
+  "bugs": {
+    "url": "https://github.com/iisakovbusiness-wq/fudaut-bmecat-oci-mcp/issues"
+  },
+  "keywords": [
+    "bmecat",
+    "oci",
+    "punchout",
+    "b2b",
+    "erp",
+    "wholesale",
+    "jtl-wawi",
+    "shopware",
+    "weclapp",
+    "etim",
+    "eclass",
+    "gtin",
+    "mcp",
+    "mcp-server",
+    "typescript",
+    "nodejs"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node ./node_modules/typescript/bin/tsc -p tsconfig.json",
+    "typecheck": "node ./node_modules/typescript/bin/tsc -p tsconfig.json --noEmit",
+    "start": "node dist/server.js",
+    "test": "node ./node_modules/typescript/bin/tsc -p tsconfig.json && node --test"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  }
+}

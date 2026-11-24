@@ -1,0 +1,23 @@
+{
+  "header": {
+    "katalogId": "KAT-JSON-2026",
+    "katalogName": "Wälzlager & Antriebstechnik (Example)",
+    "lieferantName": "Antriebstechnik Muster GmbH (Example)",
+    "waehrung": "EUR"
+  },
+  "artikel": [
+    {
+      "artikelnummer": "WL-6205-2RS",
+      "gtin": "4099990001018",
+      "kurztext": "Rillenkugellager 6205-2RS 25x52x15mm",
+      "einheit": "C62",
+      "preis": "6,45",
+      "mwst": "19",
+      "eclass": "23050801",
+      "staffelpreise": [
+        { "abMenge": 10, "preis": "5,80" },
+        { "abMenge": 50, "preis": "5,10" }
+      ]
+    }
+  ]
+}

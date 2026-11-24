@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "description": "Wartungsset Flanschdichtung DN25-DN50",
+      "quantity": "4",
+      "unit": "SET",
+      "price": "189.00",
+      "priceunit": "1",
+      "currency": "EUR",
+      "matgroup": "31151000",
+      "vendormat": "IND-SET-900",
+      "leadtime": "2"
+    },
+    {
+      "description": "Hydraulikschlauch 2SN DN12 Meterware",
+      "quantity": "30",
+      "unit": "MTR",
+      "price": "11.40",
+      "priceunit": "1",
+      "currency": "EUR",
+      "matgroup": "27062002",
+      "vendormat": "IND-SL-0820"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BMECAT version="2005" xmlns="http://www.bmecat.org/bmecat/2005">
+  <HEADER>
+    <CATALOG>
+      <LANGUAGE>deu</LANGUAGE>
+      <CATALOG_ID>KAT-DEFEKT-AID</CATALOG_ID>
+      <CATALOG_VERSION>1.0</CATALOG_VERSION>
+      <CURRENCY>EUR</CURRENCY>
+    </CATALOG>
+    <SUPPLIER>
+      <SUPPLIER_NAME>Fehlerkatalog Muster GmbH (Example)</SUPPLIER_NAME>
+    </SUPPLIER>
+  </HEADER>
+  <T_NEW_CATALOG>
+    <PRODUCT mode="new">
+      <SUPPLIER_PID>IND-DUP-100</SUPPLIER_PID>
+      <PRODUCT_DETAILS>
+        <DESCRIPTION_SHORT>Flanschmuffe Stahl verzinkt DN32</DESCRIPTION_SHORT>
+      </PRODUCT_DETAILS>
+      <PRODUCT_ORDER_DETAILS>
+        <ORDER_UNIT>C62</ORDER_UNIT>
+      </PRODUCT_ORDER_DETAILS>
+      <PRODUCT_PRICE_DETAILS>
+        <PRODUCT_PRICE price_type="net_list">
+          <PRICE_AMOUNT>18.50</PRICE_AMOUNT>
+          <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+          <TAX>0.19</TAX>
+          <LOWER_BOUND>1</LOWER_BOUND>
+        </PRODUCT_PRICE>
+      </PRODUCT_PRICE_DETAILS>
+    </PRODUCT>
+    <PRODUCT mode="new">
+      <SUPPLIER_PID>IND-DUP-100</SUPPLIER_PID>
+      <PRODUCT_DETAILS>
+        <DESCRIPTION_SHORT></DESCRIPTION_SHORT>
+      </PRODUCT_DETAILS>
+      <PRODUCT_ORDER_DETAILS>
+      </PRODUCT_ORDER_DETAILS>
+      <PRODUCT_PRICE_DETAILS>
+        <PRODUCT_PRICE price_type="net_list">
+          <PRICE_AMOUNT>22.00</PRICE_AMOUNT>
+          <PRICE_CURRENCY>EUR</PRICE_CURRENCY>
+          <TAX>0.19</TAX>
+          <LOWER_BOUND>1</LOWER_BOUND>
+        </PRODUCT_PRICE>
+      </PRODUCT_PRICE_DETAILS>
+    </PRODUCT>
+  </T_NEW_CATALOG>
+</BMECAT>

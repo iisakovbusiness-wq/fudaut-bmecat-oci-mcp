@@ -1,0 +1,33 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.iisakovbusiness-wq/fudaut-bmecat-oci-mcp",
+  "title": "BMEcat 1.2/2005, SAP OCI PunchOut & Wholesale ERP MCP",
+  "description": "Validate BMEcat 1.2/2005 & SAP OCI 4.0/5.0, convert CSV/JSON to BMEcat 2005 & ERP JSON/CSV.",
+  "websiteUrl": "https://www.fudaut.com/de/leistungen",
+  "repository": {
+    "url": "https://github.com/iisakovbusiness-wq/fudaut-bmecat-oci-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registryType": "npm",
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "identifier": "fudaut-bmecat-oci-mcp",
+      "version": "1.0.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "BMECAT_ORDNER",
+          "description": "Allowed root directory for local BMEcat XML, CSV, JSON, and SAP OCI payload files (defaults to current working directory).",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

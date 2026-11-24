@@ -1,0 +1,4 @@
+artikelnummer;gtin;kurztext;langtext;einheit;preiseinheit;preis_netto;mwst;waehrung;staffel1_ab;staffel1_preis;staffel2_ab;staffel2_preis;etim;hersteller;han
+GH-IND-101;4099990001018;"Kugelhahn & Flanschset <DN25> PN40";"Robuster Kugelhahn inkl. Dichtungssatz & Schraubensatz";STK;1;42,50;19%;EUR;10;38,90;50;34,20;EC010945;"Armaturenwerk Beispiel GmbH";ARM-101
+GH-IND-102;4099990001025;"Hydraulikschlauch 2SN DN12";"Hochdruckschlauch bis 275 bar, ölbeständig";M;1;12,80;19;EUR;25;11,40;100;9,95;EC002659;"Fluidtechnik Beispiel AG";HYD-2SN-12
+GH-IND-103;4099990001032;"Innensechskantschraube M8x30 A4";"Edelstahl A4-70 nach DIN 912";PCE;100;8,40;0.19;EUR;10;7,60;50;6,90;;"Schraubenwerk Muster GmbH";DIN912-830

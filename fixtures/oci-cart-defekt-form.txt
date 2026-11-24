@@ -1,0 +1,14 @@
+NEW_ITEM-DESCRIPTION[1]=Industrie-Hochdruck-Kugelhahn Edelstahl 1.4408 DN25 PN40 Ueberlaenge
+NEW_ITEM-QUANTITY[1]=10
+NEW_ITEM-UNIT[1]=STK
+NEW_ITEM-PRICE[1]=42.50
+NEW_ITEM-PRICEUNIT[1]=1
+NEW_ITEM-CURRENCY[1]=EUR
+NEW_ITEM-MATGROUP[1]=27062002
+NEW_ITEM-DESCRIPTION[2]=Druckminderer Messing
+NEW_ITEM-QUANTITY[2]=0
+NEW_ITEM-UNIT[2]=PCE
+NEW_ITEM-PRICE[2]=-14.50
+NEW_ITEM-PRICEUNIT[2]=1
+NEW_ITEM-CURRENCY[2]=EUR
+NEW_ITEM-ATTACHMENT[2]=https://shop.mustertechnik.example/downloads/datenblaetter/katalog-2026/armaturen/druckminderer/messing-r-1-2-zoll-ausfuehrliche-technische-spezifikation-und-einbauanleitung-fuer-industrieanlagen-und-trinkwasserleitungen-mit-sehr-langem-pfad-ueber-255-zeichen-laenge.pdf
