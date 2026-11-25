@@ -6,6 +6,8 @@
 
 [![Glama MCP Server](https://glama.ai/mcp/servers/iisakovbusiness-wq/fudaut-bmecat-oci-mcp/badges/score.svg)](https://glama.ai/mcp/servers/iisakovbusiness-wq/fudaut-bmecat-oci-mcp)
 
+> **Try it in your browser (100 % client-side, zero server upload):** [fudaut.com/en/bmecat-check](https://www.fudaut.com/en/bmecat-check) · [fudaut.com/de/bmecat-check](https://www.fudaut.com/de/bmecat-check)
+
 ---
 
 ## English
@@ -133,6 +135,8 @@ https://www.fudaut.com/en/services
 ---
 
 ## Deutsch
+
+> **Direkt im Browser testen (100 % lokal im Browser, null Server-Upload):** [fudaut.com/de/bmecat-check](https://www.fudaut.com/de/bmecat-check)
 
 `fudaut-bmecat-oci-mcp` ist ein lokal über `stdio` laufender Open-Source-MCP-Server und Kommandozeilen-Konverter (MIT-Lizenz, TypeScript / Node.js) für den technischen Großhandel und B2B-Einkauf abseits von SAP: BMEcat 1.2 & 2005, ERP-/Shop-Konvertierung (`JTL-Wawi`, `weclapp`, `Shopware 6`, `Sage 100`, `SelectLine`), Großhandels-Preislisten zu BMEcat-2005-`T_NEW_CATALOG` und SAP OCI 4.0 / 5.0 PunchOut.
 
